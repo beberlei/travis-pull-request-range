@@ -1,5 +1,6 @@
 <?php
 
-$return = shell_exec('git diff --name-only ' . escapeshellarg($_SERVER['TRAVIS_COMMIT_RANGE']));
+echo $_SERVER['TRAVIS_COMMIT_RANGE'] . "\n";
+exec('git diff --name-only ' . escapeshellarg($_SERVER['TRAVIS_COMMIT_RANGE']), $output);
 
-echo $return . "\n";
+echo implode("\n", $output) . "\n";
