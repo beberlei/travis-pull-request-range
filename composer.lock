@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "401676b0d7a048c9720784ea8fac94d6",
-    "content-hash": "d0d85c7cbd58cb02360d732c7b6e6258",
+    "hash": "3998144968b318c49593599213d6a6fe",
+    "content-hash": "ab8d100216f390bf3bffcbf4c661ff7d",
     "packages": [
         {
             "name": "beberlei/composer-monorepo-plugin",
-            "version": "v0.10.3",
+            "version": "v0.11.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/beberlei/composer-monorepo-plugin.git",
-                "reference": "e41f40f0df1a93cfcd52d0cf67c911e4d9aa605e"
+                "reference": "62f602a00e7ffcd0ffffb94f28438f07a01d66d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/beberlei/composer-monorepo-plugin/zipball/e41f40f0df1a93cfcd52d0cf67c911e4d9aa605e",
-                "reference": "e41f40f0df1a93cfcd52d0cf67c911e4d9aa605e",
+                "url": "https://api.github.com/repos/beberlei/composer-monorepo-plugin/zipball/62f602a00e7ffcd0ffffb94f28438f07a01d66d6",
+                "reference": "62f602a00e7ffcd0ffffb94f28438f07a01d66d6",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2016-05-28 08:39:58"
+            "time": "2016-05-28 10:02:42"
         },
         {
             "name": "composer/ca-bundle",

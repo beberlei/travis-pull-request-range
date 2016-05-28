@@ -1,6 +1,6 @@
 {
     "require": {
-        "beberlei/composer-monorepo-plugin": "^0.10.0",
+        "beberlei/composer-monorepo-plugin": "^0.11.0",
         "composer/composer": "^1.1"
     }
 }
