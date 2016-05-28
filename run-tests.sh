@@ -1,7 +1,7 @@
 #!/bin/bash
 set -v
 
-php vendor/bin/fiddler git-changed? $PACKAGE $TRAVIS_COMMIT_RANGE
+composer monorepo:git-changed? $PACKAGE $TRAVIS_COMMIT_RANGE -v
 if [ $? -eq 0 ]; then
     echo "$PACKAGE requires testing";
 else
