@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "beberlei/composer-monorepo-plugin",
-            "version": "v0.10",
+            "version": "v0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/beberlei/composer-monorepo-plugin.git",
-                "reference": "b0ebe78e4f0f98c7d77e777ead04c84575281fa8"
+                "reference": "44ace058d2a00ce2f792a9d711a7aa284790a167"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/beberlei/composer-monorepo-plugin/zipball/b0ebe78e4f0f98c7d77e777ead04c84575281fa8",
-                "reference": "b0ebe78e4f0f98c7d77e777ead04c84575281fa8",
+                "url": "https://api.github.com/repos/beberlei/composer-monorepo-plugin/zipball/44ace058d2a00ce2f792a9d711a7aa284790a167",
+                "reference": "44ace058d2a00ce2f792a9d711a7aa284790a167",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2016-05-27 20:47:07"
+            "time": "2016-05-28 06:36:46"
         }
     ],
     "packages-dev": [],
