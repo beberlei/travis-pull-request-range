@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "0e3f9e7e9ff2e3d6b05525c11fa902ff",
+    "content-hash": "ccd0b5391358014a21a32e7a0c4052cc",
+    "packages": [
+        {
+            "name": "beberlei/composer-monorepo-plugin",
+            "version": "v0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beberlei/composer-monorepo-plugin.git",
+                "reference": "b0ebe78e4f0f98c7d77e777ead04c84575281fa8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beberlei/composer-monorepo-plugin/zipball/b0ebe78e4f0f98c7d77e777ead04c84575281fa8",
+                "reference": "b0ebe78e4f0f98c7d77e777ead04c84575281fa8",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.1",
+                "phake/phake": "^2.2",
+                "phpunit/phpunit": "5.1.*"
+            },
+            "bin": [
+                "src/bin/fiddler"
+            ],
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Fiddler\\Composer\\Plugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Fiddler\\": "src/main"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2016-05-27 20:47:07"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

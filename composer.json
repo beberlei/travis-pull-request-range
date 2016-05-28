@@ -1,0 +1,5 @@
+{
+    "require": {
+        "beberlei/composer-monorepo-plugin": "^0.10.0"
+    }
+}
